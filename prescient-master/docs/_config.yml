@@ -1,0 +1,6 @@
+remote_theme: yous/whiteglass
+title: prescient
+description: Simulation of single cell differentiation trajectories using longitudinal scRNA-seq.
+repository: gifford-lab/prescient
+show_downloads: true
+markdown: kramdown
