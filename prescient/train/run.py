@@ -48,6 +48,10 @@ def run(args, init_task):
         else:
 
             model.to(device)
+            
+            print (train_t)
+            print ("next")
+            
             x_last = x[config.train_t[-1]].to(device) # use the last available training point
             optimizer = optim.SGD(list(model.parameters()), lr = config.pretrain_lr)
 
