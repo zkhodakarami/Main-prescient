@@ -1,0 +1,67 @@
+---
+layout: core
+title: Home
+---
+<div class="container-fluid">
+  <br>
+    <div class="list-group">
+          <div class="row">
+              <div class="list-group-item col-sm-8 col-md-5  col-lg-6">
+                  <h2>Introduction</h2>
+                  <p class="lead">
+                    PRESCIENT (Potential eneRgy undeRlying Single-Cell gradIENTs) is a tool for simulating cellular
+                    differentiation trajectories with arbitrary cell state intializations.
+                    PRESCIENT frames differentiation as a diffusion process given by a stochastic ODE with a drift parameter
+                    given by a generative neural network. PRESCIENT models can simulate cellular differentiation trajectories
+                    for out-of-sample (i.e. not seen during training) cells, enabling robust fate prediction and perturbational analysis.
+                    Here, we package PRESCIENT as a command-line tool and PyPI package.
+                  </p>
+              </div>
+              <div class="list-group-item col-sm-8 col-md-5  col-lg-4">
+                <img src="{{ site.baseurl }}/assets/gifs/trajectories.gif">
+              </div>
+
+          </div>
+
+          <div class="list-group-item list-group-item-action home-list-item">
+              <div class="row">
+                  <div class="col-sm-8 col-md-5 col-lg-10">
+                      <h2>Installation</h2>
+                      <a href="https://badge.fury.io/py/prescient"><img src="https://badge.fury.io/py/prescient.svg" alt="PyPI version" height="18"></a>
+                      <p class="lead">
+                        We recommend using pip to install PRESCIENT. For a stable version: <br>
+                        <code>
+                        pip install prescient
+                        </code>
+                      </p>
+                      <p class="lead">
+                        For the latest version: <br>
+                        <code>pip install git+https://github.com/gifford-lab/prescient.git</code>
+                      </p>
+                      <p class="lead">
+                        Source code available at: <br>
+                        <a href="https://github.com/gifford-lab/prescient">github.com/gifford-lab/prescient</a>
+                      </p>
+
+                  </div>
+              </div>
+          </div>
+
+          <div class="list-group-item list-group-item-action home-list-item">
+              <div class="row">
+                  <div class="col-sm-8 col-md-5 col-lg-10">
+                      <h2>Citing</h2>
+                      <!-- <p>If you use PRESCIENT in your work, please cite the following paper:</p> -->
+                      <p class="lead w-100 text-left">
+                        <b><a href="https://www.nature.com/articles/s41467-021-23518-w">Generative modeling of single-cell time series with PRESCIENT enables prediction of cell trajectories with interventions</a></b><br/>
+                          by Grace Hui-Ting Yeo, Sachit D. Saksena, and David K. Gifford
+                        </p>
+                        <p class="lead">
+                          Code and notebooks for paper analyses and figures avalable at: <br>
+                          <a href="https://github.com/gifford-lab/prescient-analysis">github.com/gifford-lab/prescient-analysis</a>
+                        </p>
+                  </div>
+              </div>
+          </div>
+    </div>
+</div>

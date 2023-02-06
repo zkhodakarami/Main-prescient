@@ -1,0 +1,9 @@
+main:
+  - title: "Quickstart"
+    url: /quickstart/
+  - title: "Inputs"
+    url: /file_formats/
+  - title: "Documentation"
+    url: /documentation/
+  - title: "Notebooks"
+    url: /notebooks/
